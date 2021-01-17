@@ -4,6 +4,15 @@
     
 }
 
+.bg-black {
+    background-color: #000000;
+}
+
+.tm-social4{
+    width: 100px;
+    height: 100px;
+}
+
 .tm-social2{
     width: 200px;
     height: 200px;
@@ -16,12 +25,12 @@
 
 .margem{
     margin-bottom: 30px;
-    margin-left: 40px;
+    
 }
 
 .margem2{
-    margin-bottom: 60px;
-    margin-top: 30px;
+    margin-bottom: 200px;
+    
 }
 
 .margem3{
@@ -33,8 +42,9 @@
     padding: 30px;
 } 
 
-.p-1{
-    padding: 0px;
+
+.p-5{
+    padding: 5px;
 }
 
 .b-0{
@@ -70,17 +80,29 @@ html{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover%;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("hobbies.gif");
+
+    min-height: 300px;
+    
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fundo1 {
-    background-color: #120032;
+    background-color: black;
     color: white;
     
 }
 .fundo2 {
-    background-color: #200087;
-    color: white;
+    background-color: black;
+    color: rgb(255, 255, 255);
     
 }
 
