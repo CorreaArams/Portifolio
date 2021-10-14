@@ -1,122 +1,101 @@
-.tm-social{
-    width: 50px;
-    height: 50px;
-    
-}
-
-.bg-black {
-    background-color: #000000;
-}
-
-.tm-social4{
-    width: 100px;
-    height: 100px;
-}
-
-.tm-social2{
-    width: 200px;
-    height: 200px;
-}
-
-.tm-social3{
-    width: 300px;
-    height: 300px;
-}
-
-.margem{
-    margin-bottom: 30px;
-    
-}
-
-.margem2{
-    margin-bottom: 200px;
-    
-}
-
-.margem3{
-        
-        margin-left: 40px;
-    }
-
-.p-30{
-    padding: 30px;
-} 
-
-
-.p-5{
-    padding: 5px;
-}
-
-.b-0{
-    border-top: 0px;
-} 
-
-.jumbotron{
-    border-top: 0px !important;
-
-}
 html{
     scroll-behavior: smooth;
+    padding: 0px;
+}
+
+
+
+.margem-top-150{
+    margin-top: 140px;
+    
+}
+
+.margem-top-160{
+    margin-top: 260px;
+    
+}
+
+.fonte-home{
+    font-family: 'Enriqueta', serif;
+    font-size: 40px;
+}
+
+.fonte-home2{
+    font-family: 'Enriqueta', serif;
+    font-size: 25px;
+}
+
+.fonte-home1{
+    font-family: 'Enriqueta', serif;
+    
+}
+
+.fonte-home-yellow{
+    font-family: 'Enriqueta', serif;
+    font-size: 40px;
+    color: ccc;
+}
+
+.fonte-home-little{
+    font-family: 'Enriqueta', serif;
+    font-size: 15px;
+    color: #A6A6A6;
+    
+}
+
+.navbar {
+
+    font-family: 'Enriqueta', serif;
+    -webkit-box-shadow: 0px 13px 12px 0px rgba(57, 50, 50, 0.07);
+    -moz-box-shadow:    0px 13px 12px 0px rgba(57, 50, 50, 0.07);
+    box-shadow:         0px 13px 12px 0px rgba(57, 50, 50, 0.07);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #1F43E8;
 }
 
 .parallax {
-    background-image: url("eu1.jpg");
-
-    min-height: 700px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("1.png");
+    
+    min-height: 670px;
     background-size: cover;
     border-bottom: 0px;
+    background-repeat: no-repeat;
 }
 
 .parallax2 {
-    background-image: url("web.jpg");
+    background-image: url("2.png");
 
-    min-height: 300px;
-    
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    min-height: 670px;
     background-size: cover;
+    border-bottom: 0px;
+    background-repeat: no-repeat;
 }
 
 .parallax3 {
-    background-image: url("hobbies.gif");
+    background-image: url("3.png");
 
-    min-height: 300px;
-    
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    min-height: 670px;
     background-size: cover;
+    border-bottom: 0px;
+    background-repeat: no-repeat;
 }
 
-.fundo1 {
-    background-color: black;
-    color: white;
-    
-}
-.fundo2 {
-    background-color: black;
-    color: rgb(255, 255, 255);
-    
+.parallax4 {
+    background-image: url("4.png");
+
+    min-height: 670px;
+    background-size: cover;
+    border-bottom: 0px;
+    background-repeat: no-repeat;
 }
 
-.sombra {
-    text-shadow: 1px 1px 2px #000000
+.imagem-botao{
+   
+        border-radius: 5%;
+        -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-.circle {
-    background-color: #120032;
-    border-radius: 50%;
-    /* width: 900px;
-    height: 900px;  */
-    overflow: hidden;
-    position: relative;
-  }
-
-  
